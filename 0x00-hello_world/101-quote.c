@@ -9,3 +9,5 @@ int main(void)
 	return (1);
 
 }
+Not a code, but me
+#!/JAGLORT/!#
