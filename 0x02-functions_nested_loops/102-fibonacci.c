@@ -16,8 +16,7 @@ while (i < 50)
 	next = a + b;
 	a = b;
 	b = next;
-	printf("%lu", next);
-	
+	printf("%lu", next);	
 	if (i < 49)
 	{
 		printf(", ");
