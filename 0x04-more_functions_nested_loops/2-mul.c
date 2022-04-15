@@ -5,7 +5,7 @@
  *@b: multiplier
  *
  *Return: the result of mutiplication
- */
+*/
 int mul(int a, int b)
 {
 	int result;
