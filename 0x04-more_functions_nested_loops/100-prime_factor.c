@@ -13,7 +13,6 @@ int main(void)
 	long int d;
 	
 	n = 612852475143;
-	
 	for (i = 1; i <= n; i++)
 	{
 		if (n % i == 0)
