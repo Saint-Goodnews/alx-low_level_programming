@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_diagonal - Entry point
+ * print_diagonal - Entry point
  *@n: number of times to print '\' in diagonal
- *Return: no return
+ * Return: no return
  */
 void print_diagonal(int n)
 {
@@ -11,7 +11,7 @@ void print_diagonal(int n)
 	char k;
 	char s;
 	int j;
-	
+
 	k = '\\';
 	s = ' ';
 	for (i = 0; i < n; i++)
@@ -26,8 +26,8 @@ void print_diagonal(int n)
 			_putchar('\n');
 		}
 	}
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
+		if (n <= 0)
+		{
+			_putchar('\n');
+		}
 }
