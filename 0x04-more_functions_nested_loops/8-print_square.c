@@ -1,15 +1,16 @@
 #include "main.h"
+#include "main.h"
 /**
- *print_square - prints a square
- *@size: size of the square
+ * print_square - prints a square
+ * @size: size of the square
  *
  *
- *Return: a square
+ * Return: a square
  */
 void print_square(int size)
 {
 	int a, b;
-	
+
 	if (size > 0)
 	{
 		for (a = 0 ; a < size ; a++)
