@@ -1,30 +1,22 @@
 #include "main.h"
 
 /**
- * puts_half - prints half a string.
+ * puts2 - prints a string, followed by a new line, to stdout.
  *
  * @str: pointer
  */
 
-void puts_half(char *str)
+void puts2(char *str)
 {
-int len, mid;
-for (len = 0; str[len] != '\0'; len++)
-;
+int i = 0;
 
-if (len % 2 == 0)
+while (str[i] != '\0')
 {
-mid = len / 2;
+if (i % 2 == 0)
+{
+_putchar(str[i]);
 }
-else
-{
-mid = ((len - 1) / 2) + 1;
-}
-
-while (mid < len)
-{
-_putchar(str[mid]);
-mid++;
+i++;
 }
 _putchar('\n');
 }
