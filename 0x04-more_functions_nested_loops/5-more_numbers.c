@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *more_numbers - Entry point
+ * more_numbers - Entry point
  *
- *Return: no return
+ * Return: no return
  */
 void more_numbers(void)
 {
@@ -11,7 +11,7 @@ void more_numbers(void)
 	int k;
 	int f;
 	int l;
-	
+
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (k = 0; k <= 14; k++)

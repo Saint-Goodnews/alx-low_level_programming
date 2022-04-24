@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int m;
-	
+
 	for (m = 1 ; m < 100 ; m++)
 	{
 		if ((m % 3) == 0 && (m % 5) == 0)
@@ -24,7 +24,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", m);
+		printf("%d ", m);
 		}
 	}
 	printf("Buzz");

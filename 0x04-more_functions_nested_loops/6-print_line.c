@@ -1,14 +1,15 @@
 #include "main.h"
+
 /**
- *print_line - Entry point
+ * print_line - Entry point
  *@n: number of times to print '_'
- *Return: no return
+ * Return: no return
  */
 void print_line(int n)
 {
 	int i;
 	char k;
-	
+
 	k = '_';
 	for (i = 0; i < n; i++)
 	{
