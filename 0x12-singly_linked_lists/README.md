@@ -1,1 +1,1 @@
-My linked readme
+My singly linked list readme
